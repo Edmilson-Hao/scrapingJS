@@ -1,4 +1,5 @@
-const cors = 'https://cors-anywhere.herokuapp.com/'
+//https://cors-anywhere.herokuapp.com/
+const cors = 'https://api.allorigins.win/raw?url='
 const target = 'target'
 const url = cors+target
 let newDocument
