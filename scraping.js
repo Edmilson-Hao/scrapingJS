@@ -1,6 +1,7 @@
 //https://cors-anywhere.herokuapp.com/
+
 const cors = 'https://api.allorigins.win/raw?url='
-const target = 'target'
+const target = 'https://ge.globo.com/futebol/brasileirao-serie-a/'
 const url = cors+target
 let newDocument
 
@@ -15,3 +16,8 @@ const scraping = (html, type) => {
       
       console.log(newDocument)
 }
+
+/*
+let temp = document.querySelector("body > div.glb-grid > main > div.row.medium-collapse.large-uncollapse > div > section.artilharia-wrapper > div > div > div.ranking-content")
+document.body.appendChild(temp)
+*/
